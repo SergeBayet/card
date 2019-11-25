@@ -1,0 +1,30 @@
+{
+	"name": "@sbayet/card",
+	"bin": "./index.js",
+	"version": "1.0.0",
+	"description": "Serge Bayet's card",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/SergeBayet/card.git"
+	},
+	"keywords": [
+		"card",
+		"Serge",
+		"Bayet"
+	],
+	"author": "Serge Bayet",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/SergeBayet/card/issues"
+	},
+	"homepage": "https://github.com/SergeBayet/card#readme",
+	"dependencies": {
+		"boxen": "^4.1.0",
+		"chalk": "^3.0.0",
+		"cli-frames": "^2.2.9"
+	}
+}
