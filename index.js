@@ -7,16 +7,11 @@
  * refactored at 27/08/2019
  */
 
-const chalk = require("chalk");
-const boxen = require("boxen");
-const CliFrames = require('cli-frames');
-const readline = require('readline');
-const fs = require('fs');
-let readInterface = readline.createInterface({
-	input: fs.createReadStream('./animation/serge1.asc'),
 
-	console: false
-});
+const CliFrames = require('cli-frames');
+
+const fs = require('fs');
+
 let serge = [];
 
 console.log(serge);
